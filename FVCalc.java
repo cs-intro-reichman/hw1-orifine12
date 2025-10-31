@@ -6,6 +6,6 @@ double rate = Double.parseDouble(args [1]); // annual interest rate
 int n = Integer.parseInt(args [2]); // number of years)
 double futureValue = currentValue * Math.pow (1 + rate, n); 
 double DevidedFutureValue = futureValue/100;
-System.out.println("After " + n + " years, $" + currentValue + " saved at " + rate + "% will yield $" + (int) DevidedFutureValue); //printing the future value as an Int 
+System.out.println("After " + n + " years, $" + (int) currentValue + " saved at " + rate + "% will yield $" + (int) DevidedFutureValue); //printing the future value as an Int 
 	}
 }
